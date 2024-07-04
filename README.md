@@ -1,38 +1,37 @@
 # Simple Login System with Python & SQL tools
 Simple Login and Sign Up project with Python and SQL tools
 
-This project serves as a showcase of my skills in Python scripting language with SQL database management.
-
-The SQLite database is specifically used for this project, with sqlite3 module being imported as a connection, executing table and queries.
+This project demonstrates my proficiency in Python scripting language and SQL database management, utilising the SQLite database and importing the sqlite3 module for establishing connections, executing table operations, and running query.
 
 ### Data Modelling
-In this project only one table was created as the data will only be stored in that table and the only data required from user are username and password. 
+In this project only a single table is generated, as all data will be stored exclusively in this table. The only information needed from the user are their username and password.
 
 ![](images/login_table.png)
 
 ### Preview of the code
-login_system.py is first executed to get the connection to the SQLite database ready for table and establised SQL queries.
+login_system.py is initially first executed to establish the connection to the SQLite database, ensuring that the table is ready and SQL query can be executed smoothly.
 
-Below are the SQL command that are used to execute the creation of the login table, the required data that user will be inputting and SQL query that will be required to get the data from the table.
+The image below displays the SQL commands utilised for creating the login table, the necessary user input data, and the SQL query needed to retrieve data from the table.
 
 ![](images/sql_login.png)
 
-Below image shows a part of Python code that demostrate how the database file is created and the connection between the login_system.py file to login_app.py file works.
+The image below illustrates a section of Python code that showcases the creation of the database file and the connection between the login_system.py file and the login_app.py file.
 
 ![](images/connection.png)
 
 ### Preview of login_app.py file
-login_app.py is then executed after the database is created from login_system.py file.
+Upon the creation of the database from the login_system.py file, the login_app.py is then executed.
 
 Below image is a sample of the Python code, which helped run the login_app.py file successfully.
 
 ![](images/login_app.png)
 
-When the login_app.py is executed the below menu will be displayed to allow the user to input the option.
+Once login_app.py is run, the menu below will be shown, giving the user the opportunity to input their selection.
 
 ![](images/login_app1.png)
 
-Sample of a scenario, a user enter 1 to login but the username and password is not found
+Sample of a scenario
+A user enter 1 to login but the username and password is not found
 
 ![](images/login_app2.png)
 
